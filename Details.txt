@@ -1,0 +1,92 @@
+
+Topics:
+
+  empherical Units:
+    1em --> 1 * fontsize of parent 
+    2rem --> 2 * fontsize of parent 
+
+    1rem --> 1 * fontsize of root/initial containing element ( html )
+    2rem --> 2 * fontsize of root/initial containing element ( html)
+
+  fonts:
+    https://fonts.google.com/
+  
+  icons:
+    Icons: https://fontawesome.com/search?m=free&o=r
+    CSS link: https://cdnjs.com/libraries/font-awesome
+
+  Flex-Box:
+
+    display: flex;
+
+      box takes the control of width of the children
+
+    flex-direction: row;
+
+    flex-wrap: wrap/no-wrap;
+
+    direction
+      row:
+        justify-content: justifies the content along x-axis
+
+        align-items: aligns the content along the Y-Axis
+      
+      column:
+        justify-content: justifies the content along y-axis
+
+        align-items: aligns the content along the X-Axis
+    
+    flex-flow:
+      both direction wrap
+
+    reference:
+      https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+
+  media-query:
+
+    styling based on the device resolution
+
+    Simple Media Query & Order of exection for Media Query
+
+  Responsive Web Design: RWD
+
+    Website lookign clean/neat in all the devices
+
+      Mobile First Approach
+
+      mobile & tablet: 250px - 750px
+
+      small laptop: 750px - 900px
+
+      laptop: 900px to more than 1100px 
+
+Task:
+  Day 11: https://github.com/rvsp/HTML-CSS/tree/master/Tasks
+
+  Try to complete  atleast two tasks and keep it ready, Next week  we discuss more about using flex-box for responsiveness
+
+  Also, will help any issues in the tasks
+    Try to Submit with Nov 26, if facing any difficulties try complete with 
+        
+        Last Sumbit Date: Nov 29
+
+Next Session:
+  Will be an additional Session for the few more topics in CSS & Layout Desing Techniques
+
+  bootstrap
+
+  css selections:
+    inner child
+    immediate child
+    nth child
+    nth-of-type: odd/even
+  
+  CSS Variables
+
+  SCSS
+
+  transition
+
+  animation
+  
+  Pseudo-Classes

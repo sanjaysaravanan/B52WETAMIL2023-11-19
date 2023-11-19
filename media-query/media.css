@@ -1,0 +1,82 @@
+.root {
+  background-color: aqua;
+  height: 300px;
+  width: 300px;
+}
+
+/* Min width go from lowest to highest */
+/* @media screen and (min-width: 500px) {
+  .root {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .root {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .root {
+    background-color: pink;
+  }
+} */
+
+
+/* Max-Width go from highest to lowest */
+
+/* @media screen and (max-width: 1200px) {
+  .root {
+    background-color: pink;
+  }
+} 
+
+
+@media screen and (max-width: 900px) {
+  .root {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .root {
+    background-color: blue;
+  }
+} */
+
+
+/* specifying both max & min width */
+/* @media screen and (min-width: 901px) and (max-width: 1200px) {
+  .root {
+    background-color: pink;
+  }
+} 
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  .root {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .root {
+    background-color: blue;
+  }
+} */
+
+
+/* When width is more thatn height */
+@media screen and (orientation: landscape) {
+  .root {
+    background-color: red;
+  }
+}
+
+/* When Height is more thatn Width */
+@media screen and (orientation: portrait) {
+  .root {
+    background-color: blue;
+  }
+}
+

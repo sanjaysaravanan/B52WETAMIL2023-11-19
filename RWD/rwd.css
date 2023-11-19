@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+header {
+  min-height: 75px;
+  border-bottom: 2px solid;
+  background-color: #eee;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+main {
+  margin-top: 80px;
+  padding: 8px;
+}
+
+aside {
+  display: none;
+  width: 200px;
+  position: fixed;
+  top: 75px;
+  height: calc(100vh - 75px);
+  padding: 8px;
+  overflow: auto;
+}
+
+section {
+  display: none;
+  position: fixed;
+  top: 75px;
+  right: 0;
+  padding: 4px 16px;
+  height: calc(100vw - 75px);
+  overflow: auto;
+  width: 220px;
+  border-left: 1px solid;
+}
+
+@media screen and (min-width: 751px){
+  aside {
+    display: block;
+  }
+  main {
+    margin-left: 220px;
+  }
+}
+
+@media screen and (min-width: 900px){
+  section {
+    display: block;
+  }
+  main {
+    margin-right: 250px;
+  }
+}

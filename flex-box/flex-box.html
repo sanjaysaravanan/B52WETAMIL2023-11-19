@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-row {
+        flex-flow: row wrap;
+      }
+
+      .flex-column {
+        flex-flow: column wrap;
+      }
+
+      .parent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 1000px;
+        border: 1px solid;
+      }
+
+      .child {
+        height: 200px;
+        width: 200px;
+        margin: 8px;
+        background-color: pink;
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex Box</h1>
+    <div class="parent flex-row">
+      <div class="child">1</div>
+      <div class="child">2</div>
+      <div class="child">3</div>
+      <div class="child">4</div>
+    </div>
+  </body>
+</html>
