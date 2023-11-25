@@ -3,7 +3,7 @@ Topics:
 
   empherical Units:
     1em --> 1 * fontsize of parent 
-    2rem --> 2 * fontsize of parent 
+    2em --> 2 * fontsize of parent 
 
     1rem --> 1 * fontsize of root/initial containing element ( html )
     2rem --> 2 * fontsize of root/initial containing element ( html)
